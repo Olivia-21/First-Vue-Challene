@@ -5,7 +5,7 @@
     </div>
     <div class="right-panel">
       <header>PERFUME</header>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <h1>Gabrielle Essence Eau De Parfum.</h1>
       <p>
         A floral solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANNEL<br />
