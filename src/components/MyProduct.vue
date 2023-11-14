@@ -8,11 +8,7 @@
       <h1>Gabrielle Essence Eau De Parfum.</h1>
       <p>
         A floral solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANNEL<br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique
-        facere, voluptas maxime rerum, provident exercitationem quo quas
-        officia, dignissimos qui? Deserunt iusto facilis beatae. Alias eaque
-        esse nam est.
+        Perfumer-Creator for the House of CHANNEL
       </p>
       <div class="amount">
         <span class="amt">$149.99</span>
@@ -127,10 +123,64 @@ button span {
   overflow: hidden;
 }
 
-@media screen and (max-width: 375px) {
-  .left-panel,
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+  }
+
+  .left-panel {
+    background-image: url("../assets/image-product-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    width: 90%;
+    height: 50%;
+  }
+
   .right-panel {
-    overflow: hidden;
+    width: 90%;
+    height: 50%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .right-panel header {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .right-panel h1,
+  p,
+  .amount {
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .right-panel h1 {
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .right-panel p {
+    font-size: 20px;
+  }
+
+  .amount {
+    padding: 10px;
+  }
+
+  button {
+    margin-left: 10px;
+    width: 90%;
   }
 }
 </style>
